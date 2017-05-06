@@ -64,6 +64,7 @@ header {
 .footer-widget h3 {
   font-size: 25px;
   color: white;
+  text-transform: uppercase;
 }
 
 .footer-widget p {
