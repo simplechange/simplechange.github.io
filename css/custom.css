@@ -8,6 +8,11 @@ body {
     margin: 0 auto;
 }
 
+header .header-content .header-content-inner h1 {
+    font-size: 50px;
+    line-height: 25px;
+}
+
 #newsletter {
   background-color: white;
 }
@@ -65,6 +70,8 @@ header {
   font-size: 25px;
   color: white;
   text-transform: uppercase;
+  margin-top: 75px;
+  margin-bottom: 35px;
 }
 
 .footer-widget p {
@@ -83,6 +90,7 @@ footer ul li a {
   color: rgba(255, 255, 255, 0.3);
   
 }
+
 /*footer ul {
   border-top: 1px solid #333;
 }*/
@@ -94,4 +102,8 @@ footer ul li a {
     float: right;
     margin-right: 30%;
   }
+}
+
+section.contact ul.list-social li.social-instagram a {
+    background-color: red;
 }
