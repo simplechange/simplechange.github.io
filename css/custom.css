@@ -26,6 +26,25 @@ header {
   -o-background-size: cover;
 }
 
+@media (min-width: 768px){
+  header .header-content .header-content-inner {
+      max-width: none;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-left: -100px;
+      font-size: 35px;
+  }
+}
+
+@media (min-width: 992px) {
+  header .header-content .header-content-inner h1 {
+      font-size: 50px;
+  }
+}
+
+
 @media (min-width: 768px) {
 .navbar-default .nav>li>a {
     color: #ffffff;
@@ -33,6 +52,25 @@ header {
   .navbar-default .nav>li>a:focus {
     color: #fdcc52;
   }
+}
+
+.footer-widget {
+  background-color: #222;
+  padding-left: 65px;
+  padding-right: 0;
+  border-bottom: 1px solid #333;
+}
+
+.footer-widget h3 {
+  font-size: 25px;
+  color: white;
+}
+
+.footer-widget p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
 }
 
 footer {
@@ -43,4 +81,16 @@ footer ul li a {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.3);
   
+}
+/*footer ul {
+  border-top: 1px solid #333;
+}*/
+
+@media only screen and (min-width: 800px){
+  .footer-about,
+  .footer-newsletter,
+  .footer-disclaimer {
+    float: right;
+    margin-right: 30%;
+  }
 }
