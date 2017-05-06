@@ -1,12 +1,15 @@
-/*element.style {
-    max-width: 1200px;
-    margin: 0 auto;
-}*/
+body {
+  background-color: #f5f5f5;
+}
 
 .site-container,
 .navbar-default {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+#newsletter {
+  background-color: white;
 }
 
 header {
@@ -30,4 +33,14 @@ header {
   .navbar-default .nav>li>a:focus {
     color: #fdcc52;
   }
+}
+
+footer {
+  line-height: 50px;
+}
+
+footer ul li a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.3);
+  
 }
