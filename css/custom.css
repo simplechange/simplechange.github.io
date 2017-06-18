@@ -51,7 +51,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #motivation {
-  background: paleturquoise;
+  background: #20e1cb;
 }
 
 #motivation .btn-outline.active, 
@@ -65,7 +65,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #contact {
-  background: #20e1cb;
+    background: paleturquoise;
 }
 
 header {
