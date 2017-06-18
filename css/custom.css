@@ -82,7 +82,9 @@ header {
   -o-background-size: cover;
 }
 
-@media (min-device-height : 200px) {
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 500px) {
 /* Styles */
   header {
     width: 100%;
