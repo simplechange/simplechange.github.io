@@ -26,12 +26,42 @@ header .header-content .header-content-inner h1 {
   background: #c0db06;
 }
 
+#odzywianie .btn-outline.active, 
+#odzywianie .btn-outline:active, 
+#odzywianie .btn-outline:focus, 
+#odzywianie .btn-outline:hover {
+    font-size: 15px;
+    border-color: white;
+    background-color: white;
+    color: #5a5a5a;
+}
+
 #training {
   background: rgba(255, 0, 0, 0.7); 
 }
 
+#training .btn-outline.active, 
+#training .btn-outline:active, 
+#training .btn-outline:focus, 
+#training .btn-outline:hover {
+    font-size: 15px;
+    border-color: white;
+    background-color: white;
+    color: #5a5a5a;
+}
+
 #motivation {
   background: paleturquoise;
+}
+
+#motivation .btn-outline.active, 
+#motivation .btn-outline:active, 
+#motivation .btn-outline:focus, 
+#motivation .btn-outline:hover {
+    font-size: 15px;
+    border-color: white;
+    background-color: white;
+    color: #5a5a5a;
 }
 
 #contact {
