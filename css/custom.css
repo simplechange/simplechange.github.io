@@ -22,6 +22,22 @@ header .header-content .header-content-inner h1 {
   background-color: white;
 }
 
+#odzywianie {
+  background: #c0db06;
+}
+
+#training {
+  background: rgba(255, 0, 0, 0.7); 
+}
+
+#motivation {
+  background: paleturquoise;
+}
+
+#contact {
+  background: #20e1cb;
+}
+
 header {
   width: 100%;
   height: 100%;
